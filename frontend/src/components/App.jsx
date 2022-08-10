@@ -9,7 +9,7 @@ function App() {
   })
   return (
     <div className='flex justify-center items-center'>
-      <p className='bg-black text-white text-center block z-100 p-0' >Note: Please Use Rinkeby Testnet </p>
+      <p className='text-white text-center block z-100 p-0' >Note: Please Use Rinkeby Testnet </p>
       <MintCard className='border-black' />
     </div>
   );
