@@ -1,0 +1,9 @@
+input:nth-child(2) , textarea {
+  background-color: #212429;
+}
+h1 {
+  margin: 0;
+  padding: 1rem;
+  font-size: 2rem;
+  
+}
