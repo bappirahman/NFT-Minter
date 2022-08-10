@@ -9,6 +9,7 @@ function App() {
   })
   return (
     <div className={Styles.App}>
+      <p className='bg-black text-white text-center' >Note: Please Use Rinkeby Testnet </p>
       <MintCard className='border-black' />
     </div>
   );
