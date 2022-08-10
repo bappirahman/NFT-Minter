@@ -8,8 +8,8 @@ function App() {
     document.title = "NFT Minter";
   })
   return (
-    <div className={Styles.App}>
-      <p className='bg-black text-white text-center' >Note: Please Use Rinkeby Testnet </p>
+    <div className='flex justify-center items-center'>
+      <p className='bg-black text-white text-center block z-100 p-0' >Note: Please Use Rinkeby Testnet </p>
       <MintCard className='border-black' />
     </div>
   );

@@ -51,10 +51,11 @@ const MintCard = () => {
     }
   }
   return (
-    <div className='flex justify-center items-center h-screen'>
-      <div className='flex flex-col pb-12 w-1/3'>
+    <div className='flex justify-center items-center z-10 absolute top-0 h-screen sm:w-full'>
+        
+      <div className='flex flex-col pb-12 '>
         <h1 className='text-3xl text-center'>NFT Minter</h1>
-        <input type="text" name='name' placeholder='Enter NFT name' className='mt-8 border rounded p-5 w-full' onBlur={(e) => setFormInput({...formInput, name: e.target.value})} />
+        <input type="text" name='name' placeholder='Enter NFT name' className='mt-8 border rounded p-5' onBlur={(e) => setFormInput({...formInput, name: e.target.value})} />
         <textarea type="text" name='description' placeholder='Enter NFT description' className='mt-4 border rounded p-5' onBlur={(e) => setFormInput({...formInput, description: e.target.value})} />
         <input type="file" className='my-4' onChange={(e) => onChange(e)} />
         <button className='font-bold mt-4 bg-indigo-500 text-white rounded p-5 shadow-lg' onClick={() => mintNFT()}>Mint</button>
